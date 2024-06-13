@@ -1,14 +1,12 @@
+import "../styles/newsItem.css";
+
 function NewsItem({ item }) {
   return (
-    <div style={{ display: "flex" }}>
-      <img
-        src={item.urlToImage}
-        alt="thumbnail"
-        style={{ width: "10rem", height: "10rem" }}
-      />
+    <div className="container">
+      <img className="image" src={item.urlToImage} alt="thumbnail" />
       <div>
         <a href={item.url} target="_blank" rel="noopener noreferrer">
-          <div>{item.title}</div>
+          <div className="title">{item.title}</div>
         </a>
         <div>{item.description}</div>
       </div>

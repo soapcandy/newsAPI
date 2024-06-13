@@ -35,7 +35,7 @@ function Categories({ setSelectCategory }) {
   };
 
   return (
-    <div style={{ display: "flex" }}>
+    <div className="container">
       {category.map((item) => (
         <button value={item.value} onClick={handleClick}>
           {item.name}

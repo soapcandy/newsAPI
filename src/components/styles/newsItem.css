@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.title {
+  font-weight: bold;
+  color: black;
+  font-size: large;
+  text-decoration: underline;
+}
